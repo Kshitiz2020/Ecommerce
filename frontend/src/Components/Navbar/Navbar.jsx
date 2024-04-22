@@ -4,7 +4,7 @@ import cart_icon from "../Assets/cart_icon.png";
 import { useState } from "react";
 
 function Navbar() {
-  const [menu, setMenu] = useState("kids");
+  const [menu, setMenu] = useState("");
   return (
     <div className="navbar">
       <div className="nav-logo">
