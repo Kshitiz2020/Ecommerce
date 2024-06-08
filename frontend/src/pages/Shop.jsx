@@ -2,12 +2,16 @@ import React from "react";
 import Hero from "../Components/Hero/Hero";
 import Popular from "../Components/Popular/Popular";
 import Offers from "../Components/Offers/Offers";
+import NewCollections from "../Components/NewCollection/NewCollections";
+import Newsletter from "../Components/Newsletter/Newsletter";
 function Shop() {
   return (
     <div>
       <Hero />
       <Popular />
       <Offers />
+      <NewCollections />
+      <Newsletter />
     </div>
   );
 }

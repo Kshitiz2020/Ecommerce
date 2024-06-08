@@ -1,13 +1,13 @@
-import "./Popular.css";
-import data_product from "../Assets/data";
+import "./NewCollection.css";
+import new_collection from "../Assets/new_collections";
 import Item from "../Item/Item";
 
-function Popular() {
+function NewCollections() {
   return (
-    <div className="popular">
-      <h1>POPULAR IN WOMEN </h1> <hr />
-      <div className="popular-item">
-        {data_product.map((item, i) => {
+    <div className="new-collections">
+      <h1>NEW COLLECTIONS</h1> <hr />
+      <div className="collections">
+        {new_collection.map((item, i) => {
           return (
             <Item
               key={i}
@@ -23,4 +23,4 @@ function Popular() {
     </div>
   );
 }
-export default Popular;
+export default NewCollections;
