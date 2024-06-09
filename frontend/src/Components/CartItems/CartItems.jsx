@@ -20,7 +20,7 @@ function CartItems() {
       {all_products.map((e) => {
         if (cartItems[e.id] > 0) {
           return (
-            <div>
+            <div key={e.id}>
               <div className="cartItems-format cartItems-format-main">
                 <img src={e.image} alt="" className="cartIcon-product-icon" />
                 <p>{e.name}</p>
@@ -48,10 +48,8 @@ function CartItems() {
         <div className="cartItems-total">
           <h1>Cart Total</h1>
           <div className="cartItems-total-item">
-            <p>
-              subTotal
-              <p>${getTotalCartAmount()}</p>
-            </p>
+            <p>subTotal</p>
+            <p>${getTotalCartAmount()}</p>
           </div>
           <hr />
 
