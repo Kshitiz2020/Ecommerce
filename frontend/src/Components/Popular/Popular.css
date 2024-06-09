@@ -24,3 +24,51 @@
   display: flex;
   gap: 30px;
 }
+
+@media (max-width: 1024px) {
+  .popular h1 {
+    font-size: 40px;
+  }
+
+  .popular hr {
+    width: 150px;
+    height: 5px;
+  }
+
+  .popular-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .popular h1 {
+    font-size: 30px;
+  }
+
+  .popular hr {
+    width: 100px;
+    height: 4px;
+  }
+
+  .popular-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .popular h1 {
+    font-size: 25px;
+  }
+
+  .popular hr {
+    width: 80px;
+    height: 3px;
+  }
+
+  .popular-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
