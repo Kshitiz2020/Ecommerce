@@ -4,7 +4,6 @@
 
 .descriptionBox-navigator {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .descriptionBox-nav-box {
@@ -30,40 +29,6 @@
   border: 1px solid #d0d0d0;
   padding: 48px;
   padding-bottom: 78px;
-}
-
-@media (max-width: 1024px) {
-  .descriptionBox {
-    margin: 100px 100px;
-  }
-
-  .descriptionBox-nav-box {
-    width: 150px;
-    height: 60px;
-    font-size: 14px;
-  }
-
-  .descriptionBox-description {
-    padding: 40px;
-    padding-bottom: 70px;
-  }
-}
-
-@media (max-width: 768px) {
-  .descriptionBox {
-    margin: 80px 50px;
-  }
-
-  .descriptionBox-nav-box {
-    width: 120px;
-    height: 50px;
-    font-size: 12px;
-  }
-
-  .descriptionBox-description {
-    padding: 30px;
-    padding-bottom: 60px;
-  }
 }
 
 @media (max-width: 480px) {

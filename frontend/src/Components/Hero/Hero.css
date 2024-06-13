@@ -1,7 +1,6 @@
 .background-lg {
   background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
 }
-
 .hero {
   height: 100vh;
   display: flex;
@@ -17,7 +16,6 @@
   padding-left: 180px;
   line-height: 1.1;
 }
-
 .hero-left h2 {
   color: #090909;
   font-size: 26px;
@@ -33,13 +31,13 @@
 .hero-hand-icon {
   display: flex;
   align-items: center;
+
   gap: 20px;
 }
 
 .hero-hand-icon img {
   height: 60px;
 }
-
 .hero-latest-btn {
   display: flex;
   justify-content: center;

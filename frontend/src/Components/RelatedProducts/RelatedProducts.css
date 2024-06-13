@@ -24,3 +24,51 @@
   display: flex;
   gap: 30px;
 }
+
+@media (max-width: 1024px) {
+  .relatedProducts h1 {
+    font-size: 40px;
+  }
+
+  .relatedProducts hr {
+    width: 150px;
+    height: 5px;
+  }
+
+  .relatedProducts-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .relatedProducts h1 {
+    font-size: 30px;
+  }
+
+  .relatedProducts hr {
+    width: 100px;
+    height: 4px;
+  }
+
+  .relatedProducts-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .relatedProducts h1 {
+    font-size: 25px;
+  }
+
+  .relatedProducts hr {
+    width: 80px;
+    height: 3px;
+  }
+
+  .relatedProducts-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

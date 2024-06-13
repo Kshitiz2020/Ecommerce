@@ -13,7 +13,7 @@
   grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
   align-items: center;
   gap: 75px;
-  padding: 20px 0;
+  padding: 20px 0px;
   color: #454545;
   font-size: 18px;
   font-weight: 600;
@@ -30,7 +30,7 @@
 
 .cartIcon-remove-icon {
   width: 15px;
-  margin: 0;
+  margin: 0px;
   cursor: pointer;
 }
 
@@ -43,7 +43,7 @@
 
 .cartItems-down {
   display: flex;
-  margin: 100px 0;
+  margin: 100px 0px;
   flex-direction: column;
   margin-right: 200px;
   gap: 40px;
@@ -52,7 +52,7 @@
 .cartItems-total-item {
   display: flex;
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 15px 0px;
 }
 
 .cartItems-total button {
@@ -76,7 +76,6 @@
 .cartItems-promoCode p {
   color: #454545;
 }
-
 .cartItems-promoBox {
   width: 504px;
   margin-top: 15px;

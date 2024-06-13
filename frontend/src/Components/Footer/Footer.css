@@ -61,26 +61,6 @@
   background: #c7c7c7;
 }
 
-@media (max-width: 1024px) {
-  .footer-logo p {
-    font-size: 36px;
-  }
-
-  .footer-links {
-    gap: 40px;
-    font-size: 18px;
-  }
-
-  .footer-social-icon {
-    gap: 15px;
-  }
-
-  .footer-icons-container {
-    padding: 8px;
-    padding-bottom: 5px;
-  }
-}
-
 @media (max-width: 768px) {
   .footer-logo p {
     font-size: 28px;
